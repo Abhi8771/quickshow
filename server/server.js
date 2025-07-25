@@ -25,5 +25,5 @@ app.get('/', (req, res) => {
 app.use('/api/inngest', serve({ client: inngest, functions }));
 
 app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost: ${PORT}`);
+  console.log(`Server is running at http://localhost:${PORT}`);
 });
