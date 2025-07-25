@@ -26,7 +26,7 @@ const movieSchema = new mongoose.Schema(
             type: String,
             required: true
         },
-        orginal_language: {
+        original_language: {
             type: String
         },
         tagline: {
