@@ -4,7 +4,7 @@ import Show from '../models/Show.js'
 
 
 // Api to get now playing Movies
-export const getNowPLayingMovies = async (req, res) => {
+export const getNowPlayingMovies = async (req, res) => {
     try {
 
      const {data} =   await axios.get('https://api.themoviedb.org/3/movie/now_playing', {
